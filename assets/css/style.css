@@ -1,0 +1,26 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-image: url("../images/intersection.png");
+}
+
+.animal {
+    font-size: 200%;
+    color: blue;
+    background-color: black;    
+    border: blue solid .5px;
+    margin-right: 10px;
+    /* font-weight: */
+}
+
+form {
+    margin-top: 20px;
+}
+
+#animal-name {
+    font-size: 200%;
+    font-weight: bold;
+}
+
+#animal {
+    font-weight: normal;
+}
