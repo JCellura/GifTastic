@@ -20,7 +20,7 @@ function originalButtonLoad() {
 originalButtonLoad();
 
 $("#add-animal").on("click",function(event) {
-    
+
     event.preventDefault();
 
     var animal = $("#animal").val().trim();
@@ -36,6 +36,8 @@ $("#add-animal").on("click",function(event) {
 });
 
 $(document.body).on("click", "button", function() {
+    
+    $("#gifs-appear-here").empty();
     
     var animal = $(this).attr("data-animal");
 

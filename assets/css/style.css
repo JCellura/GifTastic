@@ -12,6 +12,10 @@ body {
     /* font-weight: */
 }
 
+.animal:hover {
+    opacity: 0.5;
+}
+
 form {
     margin-top: 20px;
 }
